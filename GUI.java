@@ -5,18 +5,19 @@ import java.util.ArrayList;
 public class GUI{
     JFrame frame;
     //DBController dbc;
-    //StudentPanel studentPanel;
+    //MainFrame mainFrame;
     
     public GUI(){
         //dbc = new DBController(this);
         frame = new JFrame("Bundesliga-Datenbank");
         frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
-        frame.setPreferredSize(new Dimension (1000, 537));
+        frame.setPreferredSize(new Dimension (700, 400));
+        frame.setLayout (null);
         
-        //studentPanel = new StudentPanel(this);
-        //studentPanel.updateStudents();
-        //studentPanel.updateClasses();
+        //mainFrame = new StudentPanel(this);
+        //mainFrame.updateStudents();
+        //mainFrame.updateClasses();
         
         //frame.add(studentPanel, BorderLayout.CENTER);
         frame.pack();
