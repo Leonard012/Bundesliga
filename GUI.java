@@ -12,6 +12,7 @@ public class GUI{
         frame = new JFrame("Bundesliga-Datenbank");
         frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
         frame.setLayout(new BorderLayout());
+        frame.setPreferredSize(new Dimension (1000, 537));
         
         //studentPanel = new StudentPanel(this);
         //studentPanel.updateStudents();
@@ -28,6 +29,18 @@ public class GUI{
     
     // public DBController getController(){
         // return dbc;
+    // }
+    public void switchToSide(String from, String to){
+        
+    }
+    public void addPage(String page){
+        
+    }
+    public void removePage(String page){
+        
+    }
+    // public DatabaseController getDatabaseController(){
+        
     // }
     
 }
